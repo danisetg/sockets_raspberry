@@ -9,7 +9,7 @@ __author__ = 'Gus (Adapted from Adafruit)'
 __license__ = "GPL"
 
 GPIO.setmode(GPIO.BOARD)
-CLIENT_HOST, CLIENT_PORT = "192.168.43.80", 9999
+CLIENT_HOST, CLIENT_PORT = "192.168.1.145", 9999
 #define the pin that goes to the circuit
 pin_to_circuit = 11
 
