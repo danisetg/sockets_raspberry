@@ -25,7 +25,7 @@ class MyTCPHandler(socketserver.BaseRequestHandler):
             GPIO.output(led_pin,GPIO.LOW)
 
 if __name__ == "__main__":
-    HOST, PORT = "192.168.43.20", 9999
+    HOST, PORT = "192.168.1.146", 9999
 
     # Create the server, binding to localhost on port 9999
     server = socketserver.TCPServer((HOST, PORT), MyTCPHandler)
