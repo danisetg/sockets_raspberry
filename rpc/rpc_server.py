@@ -3,6 +3,7 @@ from xmlrpc.server import SimpleXMLRPCServer
 import serial
 
 arduino = serial.Serial('/dev/cu.usbmodem14101', baudrate=9600, timeout=1.0)
+#baud rate = 9600 para frecuencias de 1MHz, baud rate es la taza de transferencia
 
 def fan():
 
